@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <title>InlineGPT</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="container-main">
+        <div class="header">
+            <div class="push-context-btn" title="Use Page Context">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M440-160v-487L216-423l-56-57 320-320 320 320-56 57-224-224v487h-80Z"/></svg>
+            </div>
+            <div class="header-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M240-400h320v-80H240v80Zm0-120h480v-80H240v80Zm0-120h480v-80H240v80ZM80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240L80-80Zm126-240h594v-480H160v525l46-45Zm-46 0v-480 480Z"/></svg>
+            </div>
+            <div class="header-title">
+                InlineGPT
+            </div>
+        </div>
+        <div class="chat">
+            <div class="chat-box">
+                <div class="chat-message">
+                    <div class="chat-message-content">
+                        <p>Hello! How can I help you today?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="textarea" placeholder="Type your message here..." autofocus>
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-160v-640l760 320-760 320Zm80-120 474-200-474-200v140l240 60-240 60v140Zm0 0v-400 400Z"/></svg>
+            </button>
+        </div>
+    </div>
+  </body>
+  <script src="../scripts/chat.js"></script>
+</html>
